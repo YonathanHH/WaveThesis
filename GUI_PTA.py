@@ -7,6 +7,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 from math import log10, log
 
+#the code used some calculation from (McLean, 2020)
 diff_int = 0.2
 def calculate_superposition_time(array_time, array_flowtimes, array_flowrate):
     if not len(array_flowrate)==len(array_flowtimes):
